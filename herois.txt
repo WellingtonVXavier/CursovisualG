@@ -1,1 +1,6 @@
-aquaman
+Aquaman
+Batman
+Superman
+Wonder Woman
+Flash
+Green Lantern
