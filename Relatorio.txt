@@ -1,0 +1,3 @@
+07/04/2022
+Foi alterado o nome da pasta, e adicionado novos arquivos do 
+curso de visualG, e alterado o nome do repositório no GitHub.
