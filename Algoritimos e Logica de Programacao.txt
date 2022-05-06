@@ -1,0 +1,100 @@
+* Introdução/Conceitos
+* Estrutura sequencial
+* Estrutura condicional
+* Estruturas repetitivas
+* Vetores
+* Matrizes
+
+Conteudo do curso
+
+*Cap. 1: Apresentação
+
+*Cap. 2: Introdução/Conceitos
+  *Algoritmo, Linguagem de Programação, IDE, Compilador & Interpretador, etc...
+  *VisualG - instalação/Ultilização básica/Primeiro programa
+
+*Cap. 3: Estrutura sequencial
+  *Expressões Aritimética + - / * %
+  *Variáveis
+  *Entrada de dados/Processamento de dados/Saída de dados
+  *Funções Matemáticas
+
+*Cap 4: Estrutura Condicional
+  *Expressão comparativas: > < >= == !=
+  *Expressões lógicas: E, OU, NÃO
+  *Estrutura Condicional Simples
+  *Estrutura Condicional Composta
+  *Encadeamento de Estruturas Condicionais
+
+  *EXERCÍCIOS
+
+*Cap 5: Estruturas Repetitivas
+  *Estruturas Repetitivas
+  *Testes de mesa Manuais
+
+  *EXERCÍCIOS
+
+
+*Cap 6: Vetores (arrays)
+  *Teoria
+  *Declaração/Criação
+  *Acesso
+  *Testes de Mesa Manuais
+
+*Cap 7: Matrizes (array)
+  *Teoria
+  *Declaração/Criação
+  *Acesso
+  *Testes de Mesa Manuais
+
+  *EXERCÍCIOS
+
+*Capítulos Subsequentes à Lógica
+  *Instalação: Code Blocks, PyCham, Eclipse, Visual Studio.
+
+
+
+C = 5 / 9 * (F - 32)
+
+9 * C = 5 * (F - 32)
+
+9 * C / 5 = F - 32
+
+9 * C / 5 + 32 = F
+
+F = 9 * C / 5 + 32
+
+
+
+20 (4)
+20 (20)
+
+
+hora Final > hora Inicial
+
+hora Final - hora Inicial
+
+senao
+(24 - horario inicial) + horario final
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
