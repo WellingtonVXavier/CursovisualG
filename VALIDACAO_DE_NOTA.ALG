@@ -2,27 +2,31 @@ Algoritmo "Validacao_de_Nota"
 
 Var
 
-   n1, n2, media : real
+   nota1, nota2, media : real
 
 Inicio
 
    escreva(" Digite a primeira nota: ")
-   leia(n1)
+   leia(nota1)
 
-   enquanto (n1 < 0) ou (n1 > 10) faca
+   enquanto (nota1 < 0) ou (nota1 > 10) faca
       escreva(" Valor invalido! Tente novamente: ")
-      leia(n1)
+      leia(nota1)
    fimenquanto
 
    escreva(" Digite a segunda nota: ")
-   leia(n2)
+   leia(nota2)
 
-   enquanto (n2 < 0) ou (n2 > 10) faca
+   enquanto (nota2 < 0) ou (nota2 > 10) faca
       escreva(" Valor invalido! Tente novamente: ")
-      leia(n2)
+      leia(nota2)
    fimenquanto
 
-   media <- (n1 + n2) / 2
+   media <- (nota1 + nota2) / 2
    escreval(" Média = ", media:4:2)
+
+
+
+
 
 Fimalgoritmo
