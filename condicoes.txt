@@ -1,0 +1,146 @@
+                                                       CONDIÇÕES
+
+OPERADORES COMPARATIVOS EM VISUALG:
+
+Operador       Significado
+      >         Maior
+      <         Menor
+      >=        Maior ou igual
+      <=        Menor ou igual
+      =         Igual
+      <>        Diferente
+
+
+EXPRESSÕES LOGICAS
+
+Operador          Descrição
+
+"E"                 Verdadeiro see todas condições forem verdadeiras
+
+(Suponha x igual a 5)
+
+ 
+  (x <= 20) e (x = 10)  Resultado : Falsa
+      V          F
+
+
+  (x > 0) 3 (x <> 3)    Resultado : Verdadeiro
+     V         V
+
+
+  (x <= 20) e (x = 10) e (x <> 3)  Resultado: Falsa
+      V          F          V
+
+
+TABELA VERDADE DO OPERADOR "E"
+
+      A A  AeB
+      F F   F
+      F V   F
+      V F   F
+      V V   V
+
+
+
+"OU"                Verdadeiro see pelo menos uma condição for verdadeira
+
+(Suponha x igual a 5)
+
+  (x = 10) ou (x <= 20)   Resultado: Verdadira
+     F            V
+
+  (x > 0) ou ( x <> 3)    Resultado: Verdadeira
+     V           V
+
+  (x <= 0) ou (x <> 3) ou (x <> 5)  Resultado: Verdadira
+     F           V           F
+
+TABELA VERDADEIRA DO OPERADOR "OU"
+
+     A A  AeB
+     F F   F
+     F V   V
+     V F   V
+     V V   V
+
+
+"NAO"               Verdadeiro see a condição for falsa
+
+(Suponha x igual a 5)
+
+  nao (x = 10) ou (x <= 20)   Resultado: Verdadeiro
+        F           V               
+
+  nao (x >= 2)    Resultado: Falsa
+         V                         
+
+  nao ((x <= 20) e (x = 10))   Resultado: Verdadeiro
+          V           F  
+                 F
+        V
+                           
+
+TABELA VERDADEIRA DO OPERADOR "OU"
+
+     A  AeB
+     F   V
+     V   F     
+        
+
+
+                                                   ESTRUTURA CONDICIONAL 
+
+  SINTAXE DA ESTRUTURA CONDICIONAL
+
+
+   se <condição 1> entao
+        <comando 1>
+        <comando 2>
+   senao
+       se <condição 2> entao
+            <comando 3>
+            <comando 4>
+        senao
+            <comando 5>
+            <comando 6>
+   fimse
+
+
+  fimse
+   se <condição 1> entao
+        <comando 1>
+        <comando 2>
+   senao
+       se <condição 2> entao
+            <comando 3>
+            <comando 4>
+       senao
+           se <condição 3> entao
+                <comando 5>
+                <comando 6>
+   senao
+            <comando 7>
+            <comando 8>
+        fimse
+    fimse
+fimse
+
+
+
+REGRA:
+
+V: executa o bloco de comando
+F: pula o bloco de comando
+
+
+Importante:
+Reparar na indentação! 
+
+
+
+
+
+
+
+
+

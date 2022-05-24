@@ -1,0 +1,41 @@
+Algoritmo
+
+*Sequência finita de instalações para se resolver um problema.
+  *Aplica-sa a diversas áreas de conhecimento.
+*Automação: quando uma máquina realiza o algoritmo
+*Computador:
+  *Hardware/Software
+  *Máquinaque automatiza algoritmos(de cálculo)
+*Programa de computador:Algoritmo executado pelo computador
+*Linguagem de programação
+  *É um conjunto de regras Léxicas(ortografia) e Sintáticas (gramatica) para se escrever programas. 
+
+
+Léxica - Diz respeito á correção das palavras "isoladas" (ortografia.
+
+ex.
+(Português):
+
+cachorro - Certo
+caxorro - Errado
+
+Linguagem de programação:
+
+Main - Certo
+Maim - Errado
+
+Sintática - Diz respeito á correção das "Sentenças" (gramática).
+
+ex.
+(Português).
+
+O cachorro está com fome. - Certo
+A cachorro está com fome. - Errado
+
+Linguagem de programação:
+
+x = 2 + y; - Certo
+x = + 2 y; - Errado
+
+
+IDE, do inglês Integrated Development Environment ou Ambiente de Desenvolvimento Integrado

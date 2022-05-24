@@ -1,0 +1,7 @@
+              ESTRUTURA REPETITIVA "ENQUANTO"
+
+ Estrutura repetitiva "enquanto".
+ Recomendada quando não se sabe previamente a quantidade de repetições.
+ Regras:
+ * V: executa e volta
+ * F: pula fora

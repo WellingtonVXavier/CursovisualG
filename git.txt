@@ -1,0 +1,36 @@
+comandos para criar uma pasta no Git Bash  -> mkdir -> ls você mostra tudo que tem na 
+pasta. -> cd HarryPotter -> git init -> vim para criar um arquivo (txt) -> dentro do vim 
+aperta qualquer ''tecla'' para editar um testo -> Testo escrito clicar em ESC e depois você 
+dar um SHIFT (:) wq e o arquivo será criado !
+
+git status > verifica os status do repositório do git, ve os arquivos que não estão adicionados 
+ao commit, arquivos que já foram adicionados ao commit.
+
+git log > verifica quem fez o ultimo commit, o autor, email do autor, a data e hora do commit.
+
+git add > adicionar arquivos ao commit.
+
+git commit > irá criar o commit.
+
+git push > ira mandar todos os commit's que ainda não tiveram sidos enviados pro repositório de origem (github)
+
+ESTADOS DOS ARQUIVOS
+
+* não monitorado (untracked)
+      
+* Modificado (modified)
+    **git add**
+* Preparado (staged)
+    **git commit**
+* Consolidado (commited)
+
+
+git DFF
+*Exibir diferenças entre commits e branchs
+
+git DIFF [path]
+*Diferença no diretório
+
+git diff HEAD~1
+*Mostra o que foi alterado no último commit
+*Ver diff no GitHub
