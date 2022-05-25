@@ -1,16 +1,25 @@
-Algoritmo "Soma 1"
+algoritmo "Soma"
 
-Var
+//Linguagem: Portugol
+//Autor: Wellington Vaz Xavier
+//Data: 24/05/2022
 
-  valor1, valor2 : real
+var
+//Seção de Declaração
 
-Inicio
+A: inteiro
+B: real
+C: caracter
+D: logico
 
-  escreval("digite o primeiro valor")
-  leia(valor1)
-  escreval("digite o segundo valor")
-  leia(valor2)
-  
-  escreval("soma: ", valor1 + valor2)
+inicio
+//Seção de comandos
 
-Fimalgoritmo
+escreva("Digite o primeiro valor: ")
+leia(A)
+escreva("Digite o segundo valor: ")
+leia(B)
+
+escreval("Resultado: ", A + B)
+
+fimalgoritmo

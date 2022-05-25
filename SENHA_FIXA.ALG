@@ -21,5 +21,4 @@ Inicio
 
    escreval("Acesso Permitido!")
 
-
 Fimalgoritmo

@@ -6,20 +6,17 @@ algoritmo "Ex_Soma"
 //Seção de Declarações
 
 Var
-//Aqui estou declarando minhas variaveis.
-A: inteiro
-B: real
-C: caractere
-D: logico
+   //Aqui estou declarando minhas variaveis.
+   A, B: inteiro
 
 inicio
-//Seção de comandos
+   //Seção de comandos
 
-A <- 10 //aqui estou declarando que o valor da varial A é 10.
-B <- 2.5 // aqui estou declarando que o valor da varial B é 2.5.
+   escreval("Digite o primeiro valor: ") //aqui escrevera o resultado da minha operacao na tela.
+   leia(A)
+   escreva("Digite o segundo valor: ")
+   leia(B)
 
-escreval("RESULTADO: ", A + B) //aqui escrevera o resultado da minha operacao na tela.
-
-
+   escreval("Resultado: ", A + B)
 
 fimalgoritmo
